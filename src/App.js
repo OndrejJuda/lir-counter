@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 
-const LIR_START = new Date('2023-08-03');
+const LIR_START = new Date(2024, 1, 16, 20, 0, 0, 0);
 
 const calculateMilisecondsLeft = () => LIR_START.getTime() - new Date().getTime();
 
@@ -34,7 +34,7 @@ const App = () => {
           :{sec < 10 ? `0${sec}` : sec}
         </p>
       </div>
-      <a href='https://www.facebook.com/events/384743103789276/' className='absolute top-0 left-0 w-screen h-screen z-20'></a>
+      <a href='https://www.facebook.com/events/1250685672298851' className='absolute top-0 left-0 w-screen h-screen z-20'></a>
     </div>
   )
 }
